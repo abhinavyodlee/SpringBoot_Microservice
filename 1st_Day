@@ -1,0 +1,37 @@
+Rest State Representational State Transfer
+*****************************
+It depends on HTTP code
+********************
+Each Resource has an URI(Uniform Resource Locator)
+/users/Abhinav/todo/1
+/users/Abhinav/todo
+
+***********************************
+A resource can have different representation
+XML, JSON, HTML
+*********************************
+
+Create a User :- Post/users/
+Delete a user:   Delete/User/{id}
+Get all User:    Get/Users
+Get one User:     Get/Users/{id}
+Update user:      Put/ User/{id}
+
+
+*****************************
+Rest Webservice:
+
+Users: Posts
+
+Retrieve All User: Get/users/
+Create A User:     Post/users/
+Retrieve one User: Get/Users/{id}
+Delete a User:     Delete User/{id}
+
+
+Retrieve all post for a User: Get/users/{id}/posts
+
+Create a post for a specfic user : Post/user/{id}/post
+
+Retrieve details for a post:      Get/users/{id}/post/{post_id}
+
